@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Звезда Давида</title>
+    <title>OCCUPIED BY MOSSAD</title>
+    <link rel="icon" type="image/x-icon" href="/static/favicon.ico" />
     <style>
         body {
             margin: 0;
@@ -71,7 +72,7 @@
             height: 100%;
             z-index: 0;
             opacity: 0.07;
-            background: url('jewish_star.svg') center center no-repeat;
+            background: url('/static/jewish_star.svg') center center no-repeat;
             background-size: cover;
             animation: slow-pulse 15s ease-in-out infinite alternate;
         }
@@ -96,7 +97,7 @@
             top: 0;
             left: 0;
             z-index: 0;
-            background-image: url('happy_jew.svg');
+            background-image: url('/static/happy_jew.svg');
             background-size: 200px;
             background-repeat: repeat;
             filter: contrast(120%) brightness(120%);
@@ -401,13 +402,13 @@
     </div>
     
     <!-- Карты Израиля по бокам -->
-    <img src="israel.svg" class="israel-map israel-left" alt="Карта Израиля">
+    <img src="/static/israel.svg" class="israel-map israel-left" alt="Карта Израиля">
     
     <!-- Эмблема Моссада (справа) -->
-    <img src="mossad.svg" class="mossad-emblem" alt="Эмблема Моссада">
+    <img src="/static/mossad.svg" class="mossad-emblem" alt="Эмблема Моссада">
 
     <script>
-        const audio = new Audio('loud Israel music.mp3');
+        const audio = new Audio('/static/loud Israel music.mp3');
         audio.loop = true;
         
         document.body.addEventListener('click', () => {
